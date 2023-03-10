@@ -10,9 +10,6 @@
  * 103							Valor a pagar: R$ 56.00
  */
 
-
-package demonstracao_0;
-
 import java.util.Locale;
 import java.util.Scanner;
 
