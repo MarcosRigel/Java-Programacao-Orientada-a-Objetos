@@ -2,9 +2,9 @@ package entities;
 
 public class Product {
 	
-	public String name;
-	public double price;
-	public int quantity;
+	private String name;
+	private double price;
+	private int quantity;
 	
 	public Product() {
 	}
@@ -19,6 +19,27 @@ public class Product {
 		this.name = name;
 		this.price = price;
 		quantity = 0; // opcional
+	}
+	
+	// Encapsulamento metodos get e set
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public double getPrice() {
+		return price;
+	}
+	
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	
+	public int getQuantity() {
+		return quantity;
 	}
 	
 	public double totalValueInStock() {
