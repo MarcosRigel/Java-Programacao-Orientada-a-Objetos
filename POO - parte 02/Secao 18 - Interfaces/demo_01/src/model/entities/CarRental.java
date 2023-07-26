@@ -28,12 +28,12 @@ public class CarRental {
 		this.start = start;
 	}
 
-	public LocalDateTime getFisish() {
+	public LocalDateTime getFinish() {
 		return finish;
 	}
 
-	public void setFisish(LocalDateTime fisish) {
-		this.finish = fisish;
+	public void setFinish(LocalDateTime finish) {
+		this.finish = finish;
 	}
 
 	public Vehicle getVehicle() {
